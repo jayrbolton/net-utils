@@ -30,7 +30,7 @@ API
 Examples
 --------
 
-*findNetworkAddresses*
+`NetUtils.findNetworkAddresses`
 
 .. code:: java
 
@@ -39,7 +39,7 @@ Examples
     // addresses -> ['127.0.0.1', '127.17.0.1']
 
 
-*findFreePort*
+`NetUtils.findFreePort`
 
 .. code:: java
 
@@ -50,6 +50,10 @@ Examples
 Development
 -----------
 
-Using [gradle](https://docs.gradle.org):
+Using `gradle`_:
+
 * `./gradlew build` to build and run tests
 * `./gradlew test -i` to run verbose tests for debugging
+
+.. External links
+.. _gradle: https://docs.gradle.org
