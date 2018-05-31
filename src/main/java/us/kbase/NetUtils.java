@@ -1,4 +1,4 @@
-package netutils;
+package us.kbase.netutils;
 
 import java.io.IOException;
 import java.net.InetAddress;
