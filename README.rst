@@ -7,7 +7,7 @@ Some basic Java utilities for finding free ports and available network interface
 Installation
 ------------
 
-Using Gradle, specify the NetUtils as a dependency
+Using Gradle, specify the NetUtils as a dependency inside your ``build.gradle``:
 
 .. code::
 
@@ -30,7 +30,7 @@ API
 Examples
 --------
 
-`NetUtils.findNetworkAddresses`
+``NetUtils.findNetworkAddresses``
 
 .. code:: java
 
@@ -39,7 +39,7 @@ Examples
     // addresses -> ['127.0.0.1', '127.17.0.1']
 
 
-`NetUtils.findFreePort`
+``NetUtils.findFreePort``
 
 .. code:: java
 
