@@ -1,0 +1,10 @@
+tmp
+.gradle
+/build/
+*.class
+*.jar
+*.war
+*.ear
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
